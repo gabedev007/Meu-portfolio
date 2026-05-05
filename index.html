@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Web Designer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h2>Portfolio.</h2>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link">Projetos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contato</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        Olá, sou um <span class="highlight">Web Designer</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Criando experiências digitais incríveis com design moderno e funcional
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">Ver Projetos</a>
+                        <a href="#contact" class="btn btn-secondary">Entrar em Contato</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="hero-graphic">
+                        <div class="graphic-element"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">Sobre Mim</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder">SOBRE</div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Web Designer Profissional</h3>
+                            <p>
+                                Sou um web designer apaixonado por criar interfaces bonitas e funcionais. 
+                                Com foco em UX/UI e design moderno, transformo ideias em experiências digitais memoráveis.
+                            </p>
+                            <div class="project-tech">
+                                <span>UX Design</span>
+                                <span>UI Design</span>
+                                <span>Frontend</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#contact" class="project-link">
+                                    <i class="fas fa-envelope"></i> Contato
+                                </a>
+                                <a href="#projects" class="project-link">
+                                    <i class="fas fa-briefcase"></i> Portfólio
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder">EXPERIÊNCIA</div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Estatísticas</h3>
+                            <div class="about-stats">
+                                <div class="stat">
+                                    <h3>50+</h3>
+                                    <p>Projetos Concluídos</p>
+                                </div>
+                                <div class="stat">
+                                    <h3>5+</h3>
+                                    <p>Anos de Experiência</p>
+                                </div>
+                                <div class="stat">
+                                    <h3>100%</h3>
+                                    <p>Clientes Satisfeitos</p>
+                                </div>
+                            </div>
+                            <div class="project-links">
+                                <a href="#skills" class="project-link">
+                                    <i class="fas fa-cogs"></i> Habilidades
+                                </a>
+                                <a href="#contact" class="project-link">
+                                    <i class="fas fa-phone"></i> Contato
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder">FILOSOFIA</div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Minha Abordagem</h3>
+                            <p>
+                                Minha abordagem combina criatividade com as melhores práticas de design, 
+                                garantindo que cada projeto seja único e eficaz. Foco em resultados 
+                                e satisfação do cliente.
+                            </p>
+                            <div class="project-tech">
+                                <span>Design Thinking</span>
+                                <span>Agile</span>
+                                <span>Scrum</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#projects" class="project-link">
+                                    <i class="fas fa-eye"></i> Ver Trabalhos
+                                </a>
+                                <a href="#contact" class="project-link">
+                                    <i class="fas fa-comments"></i> Conversar
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">Meus Projetos</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder"></div>
+                        </div>
+                        <div class="project-content">
+                            <h3>E-commerce Moderno</h3>
+                            <p>Loja online com design responsivo e experiência de compra otimizada</p>
+                            <div class="project-tech">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i> Ver Demo
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i> Código
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder"></div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Portfolio Corporativo</h3>
+                            <p>Site institucional elegante para empresa de tecnologia</p>
+                            <div class="project-tech">
+                                <span>React</span>
+                                <span>Tailwind</span>
+                                <span>Framer</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i> Ver Demo
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i> Código
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder"></div>
+                        </div>
+                        <div class="project-content">
+                            <h3>App Mobile Banking</h3>
+                            <p>Interface de aplicativo bancário com foco em usabilidade</p>
+                            <div class="project-tech">
+                                <span>UI/UX</span>
+                                <span>Figma</span>
+                                <span>Prototype</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i> Ver Demo
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i> Código
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder"></div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Plataforma EAD</h3>
+                            <p>Sistema de ensino online com interface intuitiva e moderna</p>
+                            <div class="project-tech">
+                                <span>Vue.js</span>
+                                <span>Sass</span>
+                                <span>Node.js</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i> Ver Demo
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i> Código
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2 class="section-title">Habilidades</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Design</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <span>UI/UX Design</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span>Figma</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span>Adobe Creative Suite</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Frontend</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <span>HTML/CSS</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 95%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span>JavaScript</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span>React/Vue</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Outros</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <span>Responsive Design</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span>Git/GitHub</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 75%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span>SEO</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 70%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Entre em Contato</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Vamos criar algo incrível juntos!</h3>
+                        <p>
+                            Se você tem um projeto em mente ou gostaria de saber mais sobre meu trabalho, 
+                            não hesite em entrar em contato.
+                        </p>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>email@exemplo.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+55 (11) 99999-9999</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>São Paulo, SP</span>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <a href="#" class="social-link">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-dribbble"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Seu nome" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Seu email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Assunto" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Sua mensagem" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Portfolio. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
